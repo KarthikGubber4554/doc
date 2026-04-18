@@ -8,7 +8,7 @@ public class HelloBengaluru {
 	
 	@GetMapping("/message")
 	public String getMessage() {
-		return "HELLO BENGALURU";
+		return "NAMMA BENGALURU";
 	}
 
 }
