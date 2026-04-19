@@ -8,7 +8,7 @@ public class HelloBengaluru {
 	
 	@GetMapping("/message")
 	public String getMessage() {
-		return "DOCKER-JENKINS-KUBERNETES-MY-FIRST-PROJECT-DEPLOYMENT-SUCCESSFULL";
+		return "MY-FIRST-DOCKER-JENKINS-KUBERNETES-PROJECT-DEPLOYMENT-SUCCESSFULL";
 	}
 
 }
