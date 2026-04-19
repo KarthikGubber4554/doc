@@ -11,15 +11,16 @@ spec:
       app: javawebapp
   template:
     metadata:
-      name: javawebpod
       labels:
         app: javawebapp
     spec:
       containers:
         - name: webappcontainer
           image: karthikgubber45/docpro123:docpro-v10
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
+
 ---
 apiVersion: v1
 kind: Service
