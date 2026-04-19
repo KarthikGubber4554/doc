@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: webappcontainer
-          image:karthikgubber45/docpro123:docpro-v10
+          image: karthikgubber45/docpro123:docpro-v10
           ports:
             - containerPort: 9090
 ---
